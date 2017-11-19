@@ -14,7 +14,7 @@ RUN adduser -D minecraft && \
     mkdir -p /minecraft/world && \
     mkdir -p /minecraft/cfg && \
     mkdir -p /minecraft/backups &&\
-    curl -SLO http://ftb.cursecdn.com/FTB2/modpacks/FTBPresentsSkyfactory3/3_0_13/FTBPresentsSkyfactory3Server.zip  && \
+    curl -SLO http://ftb.cursecdn.com/FTB2/modpacks/FTBPresentsSkyfactory3/3_0_15/FTBPresentsSkyfactory3Server.zip  && \
     unzip FTBPresentsSkyfactory3Server.zip && \
     chmod u+x *.sh && \
     echo "eula=true" > /minecraft/eula.txt && \
